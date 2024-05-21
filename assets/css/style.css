@@ -16,7 +16,7 @@ font-family: 'Lato',sans-serif; }
 
 /*Header*/
 header {background-color: lightcoral;}
-
+h1 {font-family: 'Oswald', sans-serif;}
 /*Main Content*/
 main{background-color: lightseagreen;
 /*Make Main element take up any surplus space to push footer down*/
