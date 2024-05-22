@@ -59,7 +59,8 @@ top: 100%;
 /*Main Content*/
 main{background-color: lightseagreen;
 /*Make Main element take up any surplus space to push footer down*/
-flex:1 0 auto;}
+flex:1 0 auto;
+margin-top: 48px;}
 
 /*footer*/
 footer{background-color:orange;
