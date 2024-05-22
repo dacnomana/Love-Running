@@ -117,14 +117,29 @@ main {
 }
 
 /* Reasons section*/
-#reasons {width: 90%;
-margin: 20px auto;
+#reasons {
+    width: 90%;
+    margin: 20px auto;
 }
 
-#reasons h2 {margin-bottom: 20px;
+#reasons h2 {
+    margin-bottom: 20px;
     text-align: center;
-    font-size: 280%;}
+    font-size: 280%;
+}
 
+#benefits-physical div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#benefits-mental div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#benefits p {padding:0 20px;}
+
+hr {margin: 5px 0;
+border:#3a3a3a solid 1px;}
 
 /*footer*/
 #social-networks {
