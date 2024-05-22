@@ -117,28 +117,9 @@ main {
 }
 
 /* Reasons section*/
-#reasons {
-    width: 90%;
-    height: 700px;
-    margin: 20px auto;
-    background-color: #ffffff;
-    border: 2px groove #3a3a3a;
-}
 
-#reasons h2 {
-    font-size: 280%;
-    text-align: center;
-    margin-bottom: 20px;
-}
 
-#benefits {display:flex;
-flex-direction:column;
-}
-#benefits-physical h3 {line-height:20px;
-}
-p {padding: 0 20px;
-border-top: 1px solid #3a3a3a;
-margin: 5px 0;}
+
 
 /*footer*/
 #social-networks {
