@@ -308,7 +308,7 @@ margin-top: 20px;}
 
     #signup-form {position: absolute;
     left: 10%;
-    top: 130px;
+    top: 10%;
     max-width: 400px;}
 
     .text-input:hover {border-color: #f16c6b;}
@@ -317,7 +317,6 @@ margin-top: 20px;}
 
 }
     
-
 /* Large devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
 
@@ -341,4 +340,10 @@ margin-top: 20px;}
     #benefits-mental {order:1;}
     #benefits-mental > div {align-self: flex-start;}
     #benefits-physical > div {align-self: flex-end;}
+
+    /* Signup Page*/
+    #signup-form {position: absolute;
+        left: 10%;
+        top: 10%;
+        max-width: 800px;}
 }
