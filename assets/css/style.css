@@ -18,9 +18,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -158,6 +156,14 @@ hr {
 align-items: center;
 justify-content: center;}
 
+/* Meet-up Times section*/
+#times {
+    width: 100%;
+    background: url(../images/dublin-city.webp) no-repeat center/cover;
+    /* Handles responsivity without the need of a media query */
+    display: flex;
+    flex-wrap: wrap;}
+    
 /*footer*/
 #social-networks {
     text-align: center;
