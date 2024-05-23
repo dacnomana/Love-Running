@@ -86,9 +86,13 @@ nav {
 
 /*Main Content*/
 main {
-    /*Make Main element take up any surplus space to push footer down*/
+    /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 48px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /*Hero section*/
@@ -188,10 +192,38 @@ border:2px solid white;
 #photos {line-height:0;}
 
 /* Sign-Up page */
+#signup {background-image: url(../images/signup-image.webp);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;}
+
+#signup-form {padding: 30px;
+    color:#ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+}
+#signup-form > h2 {color:#fafafa;
+margin-bottom: 20px;}
+
+.text-input {background: transparent;
+    color:#fafafa;
+    width: 100%;
+    border:1px solid #fafafa;
+    border-radius: 3px;
+    height:25px;
+    padding: 0 5px;
+    margin: 5px 0 20px 0;}
+
 .radio-buttons {display: flex;
-flex-direction: column;
-padding-left: 20px;
-justify-content: flex-start;}
+justify-content: space-between;
+width: 100%;}
+
+.join-button {background-color: #454b1b;
+border-radius: 5px;
+color:#fafafa;
+font-size: 100%;
+padding: 15px 32px;
+margin-top: 20px;}
 
 /*footer*/
 #social-networks {
@@ -269,7 +301,22 @@ justify-content: flex-start;}
 
     #benefits-mental > div {text-align: end;
     align-self: flex-end;}
+    
+    /* Signup Section */
+    #signup {background-position: center;
+    position: relative;}
+
+    #signup-form {position: absolute;
+    left: 10%;
+    top: 150px;
+    max-width: 400px;}
+
+    .text-input:hover {border-color: #f16c6b;}
+    .join-button:hover {background-color: #fafafa;
+    color:#454b1b;}
+
 }
+    
 
 /* Large devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
