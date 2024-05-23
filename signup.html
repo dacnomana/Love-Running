@@ -39,33 +39,30 @@
     <!--Main content-->
     <main>
         <section id="signup">
-            <form id="signup-form" action="http://formdump.codeinstitute.net" method="post">
+            <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
                 <h2><i class="fa-solid fa-heart-pulse"></i> Let's Get You Signed Up!</h2>
-                <div class="text-input">
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" name="first-name" required>
-                </div>
-                <div class="text-input">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last name" name="last-name" required>
-                </div>
-                <div class="text-input">
-                    <lavel id="email-address">Email Address</lavel>
-                    <input type="email" id="email-address" name="email-address" required>
-                </div>
+                <label for="first-name">First Name</label>
+                <input class="text-input" type="text" id="first-name" name="first-name" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input class="text-input" type="text" id="last name" name="last-name" required>
+                <br>
+                <lavel id="email-address">Email Address</lavel>
+                <input class="text-input" type="email" id="email-address" name="email-address" required>
+                <br>
                 <div class="radio-buttons">
-                    <span>
+                    <div id="road">
                         <label for="road" id="road">Road</label>
-                        <input type="radio" name="road" id="road">
-                    </span>
-                    <span>
+                        <input type="radio" name="runnin-preference" id="road">
+                    </div>
+                    <div id="trail">
                         <label for="trail" id="trail">Trail</label>
-                        <input type="radio" name="trail" id="trail">
-                    </span>
-                    <span>
+                        <input type="radio" name="runnin-preference" id="trail">
+                    </div>
+                    <div id="both">
                         <label for="both" id="both">Both</label>
-                        <input type="radio" name="both" id="both">
-                    </span>                    
+                        <input type="radio" name="runnin-preference" id="both">
+                    </div>                    
                 </div>
                 <input class="join-button" type="submit" value="Let's Run!">
             </form>

@@ -180,12 +180,18 @@ border:2px solid white;
 /*Overrides the heading colour set in general styles */
 #times h3 {color:#fafafa;}
 
-/* Gallery page*/
+/* Gallery page */
 #photos img {width: 100%;
     line-height: 1em;
 }
 /*Remove white space between photos (which are seen inline, as text)*/
 #photos {line-height:0;}
+
+/* Sign-Up page */
+.radio-buttons {display: flex;
+flex-direction: column;
+padding-left: 20px;
+justify-content: flex-start;}
 
 /*footer*/
 #social-networks {
